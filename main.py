@@ -26,10 +26,3 @@ def main() -> None:
 
 if __name__ == '__main__':
     main()
-
-
-import difflib
-words = ['hello', 'hi', 'hey', 'howdy', 'hey there']
-difflib.get_close_matches('h', words)
-import keyword
-keyword.kwlist
